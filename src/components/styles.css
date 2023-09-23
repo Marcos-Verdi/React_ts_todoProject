@@ -87,3 +87,29 @@
     cursor: pointer;
 }
 
+.editing-mode {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    color: black !important;
+    font-size: 1.1rem;
+    opacity: 80%;
+    padding: 0.5rem 1rem;
+}
+
+.editing-input {
+    padding: o.5rem;
+    font-size: 1rem;
+}
+
+.editing-submit {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
